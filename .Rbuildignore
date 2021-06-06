@@ -1,0 +1,5 @@
+^pkgdevop\.Rproj$
+^\.Rproj\.user$
+^pkgdevop\.Rcheck$
+^pkgdevop.*\.tar\.gz$
+^pkgdevop.*\.tgz$

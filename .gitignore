@@ -3,3 +3,6 @@
 .Rdata
 .httr-oauth
 .DS_Store
+pkgdevop.Rcheck/
+pkgdevop*.tar.gz
+pkgdevop*.tgz

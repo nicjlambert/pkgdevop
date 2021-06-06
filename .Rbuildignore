@@ -3,3 +3,5 @@
 ^pkgdevop\.Rcheck$
 ^pkgdevop.*\.tar\.gz$
 ^pkgdevop.*\.tgz$
+^LICENSE\.md$
+^README\.Rmd$

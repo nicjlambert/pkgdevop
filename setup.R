@@ -1,17 +1,8 @@
 # GitHub first, then RStudio” sequence
 
-# install packages --------------------------------------------------------
-#install.packages(c('devtools', 'tidyverse','fs'))
-
-# load packages -----------------------------------------------------------
-library(devtools) # Collection of package development tools.
-library(tidyverse) # Data science workflow.
-library(fs) # Cross-Platform File System Operations.
-
-
 # Create package ----------------------------------------------------------
 
-usethis::create_package('pkgdev')
+usethis::create_package("pkgdev")
 
 
 # Use Git -----------------------------------------------------------------
@@ -24,7 +15,7 @@ use_git()
 
 # functions ---------------------------------------------------------------
 
-use_r('fbind')
+use_r("fbind")
 
 
 # load functions ----------------------------------------------------------
@@ -70,3 +61,10 @@ usethis::use_testthat()
 use_test("fbind")
 
 test()
+
+
+# styler package ----------------------------------------------------------
+
+styler::style_pkg() #restyles an entire R package.
+styler::style_dir() #restyles all files in a directory.
+

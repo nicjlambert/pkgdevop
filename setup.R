@@ -60,4 +60,13 @@ use_r("fcount")
 
 # add a README ------------------------------------------------------------
 
-use_readme_rmd()
+use_readme_rmd() # don't forget to knit
+
+
+# add tests ---------------------------------------------------------------
+
+usethis::use_testthat()
+
+use_test("fbind")
+
+test()
